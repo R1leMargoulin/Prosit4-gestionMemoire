@@ -1,10 +1,11 @@
 #pragma once
-#include "recepteur.h"
+#include "pch.h"
 
 class emetteur
 {
 public:
 	void diffuser(recepteur&);
 };
+
 emetteur emetteur1;
 

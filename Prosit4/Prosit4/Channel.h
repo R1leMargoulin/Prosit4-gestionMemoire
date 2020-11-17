@@ -6,6 +6,8 @@ struct Contenu { //Cette structure est une liste chainée de messages, pour simul
 	std::string message;
 	Contenu* next;
 };
+
+
 class Channel
 {
 private:
@@ -15,7 +17,6 @@ public:
 	std::string getmessage(Contenu*);	//c'est simplement l'affichage de notre liste chainée un accesseur-fonction d'affichage (2 en un et ouep!)
 	Contenu* getpremier();	//Accesseur de notre pointeur premier
 	void AjouterContenu(std::string, Contenu*); // on rentre le message a rentrer ainsi que le pointeur premier de notre liste.
-
 };
 
 Channel channel1; //on créé 4 chaines a diffuser.

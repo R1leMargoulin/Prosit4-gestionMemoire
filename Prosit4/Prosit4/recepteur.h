@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
-#include "Channel.h"
-#include "emetteur.h"
+#include "pch.h"
+
 
 class recepteur
 {

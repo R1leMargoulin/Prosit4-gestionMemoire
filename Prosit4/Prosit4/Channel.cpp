@@ -31,3 +31,4 @@ void Channel::AjouterContenu(string msg, Contenu* premier)
     nouveau->next = premier;
     premier = nouveau;
 }
+
